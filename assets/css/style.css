@@ -1,0 +1,116 @@
+/*--------------
+font
+----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*----------------------
+common styles or utilities 
+------------------------*/
+:root {
+    --background: #ffffff;
+    --primary-text-color: #3a3a3a;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    background: var(--background);
+}
+
+/*----------------
+nav bar 
+------------------*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 87px 120px;
+    align-items: center;
+}
+
+nav h1 {
+    color: var(--primary-text-color);
+    size: 24px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: none;
+    margin-left: 34px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    size: 16px;
+}
+
+/*-------------------
+body
+-------------------*/
+
+/* 1st-section */
+.first-section{
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-section .intro {
+    max-width: 582px;
+    max-height: 270px;
+}
+
+.first-section .intro h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 0;
+    padding: 0;
+    color: var(--primary-text-color);
+}
+
+.first-section .intro p {
+    font-size: 16px;
+    max-width: 505px;
+    max-height: 60.9px;
+    margin: 0;
+    padding-top: 16px;
+    color: var(--primary-text-color);
+}
+
+.first-section .intro button {
+    padding: 0px;
+    margin-top: 16.1px;
+    border-radius: 41px;
+    background-color: #e02c6d;
+    color: wheat;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 24px;
+}
+
+.first-section .intro button:hover {
+    background-color: #9e4364;
+}
+
+.first-section .image {
+    background-image: url("../images/circle-design.svg");
+    max-width: 475px;
+    max-height: 475px;
+}
+
+/* second-section */
+.brands {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    max-height: 110px;
+}
